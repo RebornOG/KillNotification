@@ -6,7 +6,7 @@ class KillNotificationUI
 
     void KillNotificationUI()
     {
-        m_NotificationWidget = TextWidget.Cast(GetGame().GetWorkspace().CreateWidgets("YourModPath/layouts/KillNotification.layout"));
+        m_NotificationWidget = TextWidget.Cast(GetGame().GetWorkspace().CreateWidgets("KillNotification/layouts/KillNotification.layout"));
         m_NotificationWidget.Show(false);
     }
 
